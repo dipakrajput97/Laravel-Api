@@ -21,29 +21,35 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
 
-Laravel Importants 
+## Setup Laravel
 
 1) Installaton :
 
- Please make sure that you intall composer in your machine.
+ Please make sure that you intall composer on your machine.
+ 
+ Please reffer the following post to install the composer on your local machine 
+ https://www.hostinger.com/tutorials/how-to-install-composer
+ 
+ Use any one option to install the laravel on your local machine.
+	
+	1) 
+	$ composer global require laravel/installer
+	$ laravel new “project name”
+	
+	2)
+	$ composer create-project --prefer-dist 						 
+	$ laravel/laravel “project name”
 
-		way 1) > composer global require laravel/installer
-
-		     > laravel new “project name”
-
-		way2)>composer create-project --prefer-dist 						 laravel/laravel “project name”
-
-			>
+			
 2) Run 
 
- >php artisan serve
+ $php artisan serve
 
 It will run on the http://127.0.0.1:8000 please visit.
 
-
 3) Database connection
 
-Just copy the all content from the root of your setup project .env-example file and create a new file with name .env with database credentials
+Just copy the all content from the root of your setup project .env-example file and create a new file with name .env with database credentials.If you are using the composer then you do not need to do anything just put the your database credential in .env file and run the application
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -54,16 +60,16 @@ DB_PASSWORD=secret
 
 4) Helpfull Commands
 
-	a) Model creation : > php artisan make:model “name of module”	-m
+	a) Model creation : $ php artisan make:model “name of module” -m
 
-	b) Migrate tables : > php artisan migrate
+	b) Migrate tables : $ php artisan migrate
 
- 	c) Database seeding : > php artisan make:seeder	“Name of seeder”
-					              > php artisan db:seed --class=”Name of the seeder”
+ 	c) Database seeding : $ php artisan make:seeder	“Name of seeder”
+			      $ php artisan db:seed --class=”Name of the seeder”
 
-  d) Controller Creation : >php artisan make:controller “Name of Controller”
+  	d) Controller Creation:$ php artisan make:controller “Name of Controller”
 
-5)Responce code
+5) Responce code
 
     • 200: OK. The standard success code and default option. 
     • 201: Object created. Useful for the store actions. 
@@ -84,32 +90,11 @@ Laravel has the most extensive and thorough [documentation](https://laravel.com/
 
 If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
 
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell):
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Pulse Storm](http://www.pulsestorm.net/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
 
 ## Contributing
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
