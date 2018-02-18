@@ -33,6 +33,7 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
 
 	$ git clone git@github.com:dipakrajput97/Laravel-Api.git
 	$ cd Laravel-Api
+	$ composer install
 	$ php artisan serve
 
 	It will run on the http://127.0.0.1:8000 please visit.
