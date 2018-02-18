@@ -21,6 +21,63 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
 
+Laravel Importants 
+
+1) Installaton :
+
+ Please make sure that you intall composer in your machine.
+
+		way 1) > composer global require laravel/installer
+
+		     > laravel new “project name”
+
+		way2)>composer create-project --prefer-dist 						 laravel/laravel “project name”
+
+			>
+2) Run 
+
+ >php artisan serve
+
+It will run on the http://127.0.0.1:8000 please visit.
+
+
+3) Database connection
+
+Just copy the all content from the root of your setup project .env-example file and create a new file with name .env with database credentials
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=homestead
+DB_USERNAME=homestead
+DB_PASSWORD=secret
+
+4) Helpfull Commands
+
+	a) Model creation : > php artisan make:model “name of module”	-m
+
+	b) Migrate tables : > php artisan migrate
+
+ 	c) Database seeding : > php artisan make:seeder	“Name of seeder”
+					              > php artisan db:seed --class=”Name of the seeder”
+
+  d) Controller Creation : >php artisan make:controller “Name of Controller”
+
+5)Responce code
+
+    • 200: OK. The standard success code and default option. 
+    • 201: Object created. Useful for the store actions. 
+    • 204: No content. When an action was executed successfully, but there is no content to return. 
+    • 206: Partial content. Useful when you have to return a paginated list of resources. 
+    • 400: Bad request. The standard option for requests that fail to pass validation. 
+    • 401: Unauthorized. The user needs to be authenticated. 
+    • 403: Forbidden. The user is authenticated, but does not have the permissions to perform an action. 
+    • 404: Not found. This will be returned automatically by Laravel when the resource is not found. 
+    • 500: Internal server error. Ideally you're not going to be explicitly returning this, but if something unexpected breaks,
+           this is what your user is going to receive. 
+    • 503: Service unavailable. Pretty self explanatory, but also another code that is not going to be returned explicitly by the
+          application. 
+
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of any modern web application framework, making it a breeze to get started learning the framework.
