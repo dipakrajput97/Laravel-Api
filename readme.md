@@ -19,7 +19,7 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
  
  The following post help you to install the composer on your local machine/server. 
  
- 	<a href="https://www.hostinger.com/tutorials/how-to-install-compose">How to install Composer</a>
+ <a href="https://www.hostinger.com/tutorials/how-to-install-compose">How to install Composer</a>
  
  Use any one option to install the laravel on your local machine.
 
