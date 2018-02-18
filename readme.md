@@ -28,11 +28,14 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
 	------------------OR------------------------
 	$ composer create-project --prefer-dist 						 
 	$ laravel/laravel “project name”
+	
+## Coning the Repository
 
-## Run 
-	$php artisan serve
+	$ git clone git@github.com:dipakrajput97/Laravel-Api.git
+	$ cd Laravel-Api
+	$ php artisan serve
 
-It will run on the http://127.0.0.1:8000 please visit.
+	It will run on the http://127.0.0.1:8000 please visit.
 
 ## Database connection
 
