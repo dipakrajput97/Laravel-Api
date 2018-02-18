@@ -22,12 +22,12 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
  
  Use any one option to install the laravel on your local machine.
  
- 1) 
-	$ composer global require laravel/installer
-	$ laravel new “project name”
- 2)
-	$ composer create-project --prefer-dist 						 
-	$ laravel/laravel “project name”
+-$ composer global require laravel/installer
+-$ laravel new “project name”
+
+------------------OR------------------------
+-$ composer create-project --prefer-dist 						 
+-$ laravel/laravel “project name”
 
 ## Run 
 	$php artisan serve
@@ -38,23 +38,31 @@ It will run on the http://127.0.0.1:8000 please visit.
 
 Just copy the all content from the root of your setup project .env-example file and create a new file with name .env with database credentials.If you are using the composer then you do not need to do anything just put the your database credential in .env file and run the application
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=homestead
-DB_USERNAME=homestead
-DB_PASSWORD=secret
+	DB_CONNECTION=mysql
+	DB_HOST=127.0.0.1
+	DB_PORT=3306
+	DB_DATABASE="your database name"
+	DB_USERNAME="your user name"
+	DB_PASSWORD="your password"
 
 ## Helpfull Commands
 
-- Model creation - $ php artisan make:model “name of module” -m
+- Model creation
+		
+		$ php artisan make:model “name of module” -m
 
-- Migrate tables - $ php artisan migrate
+- Migrate tables 
 
-- Database seeding - $ php artisan make:seeder	“Name of seeder”
-		   - $ php artisan db:seed --class=”Name of the seeder”
+		$ php artisan migrate
 
-- Controller Creation -$ php artisan make:controller “Name of Controller”
+- Database seeding 
+
+		$ php artisan make:seeder “Name of seeder”
+		$ php artisan db:seed --class=”Name of the seeder”
+
+- Controller Creation
+
+		$ php artisan make:controller “Name of Controller”
 
 ## Responce code
 
