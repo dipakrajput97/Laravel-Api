@@ -29,7 +29,7 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
 	$ composer create-project --prefer-dist 						 
 	$ laravel/laravel “project name”
 	
-## Coning the Repository
+## Conning the Repository
 
 	$ git clone git@github.com:dipakrajput97/Laravel-Api.git
 	$ cd Laravel-Api
@@ -91,7 +91,7 @@ If you're not in the mood to read, [Laracasts](https://laracasts.com) contains o
 
 ## Contact
 
-	Dont be hesitate to contact,mail me on dipaksinghrajput97@gmail.com for any further query related to Laravel,It will be 	much appriciated.
+	Don't be hesitate to contact,mail me on dipaksinghrajput97@gmail.com for any further query related to Laravel,It will be much appriciated.
 
 ## Contributing
 
