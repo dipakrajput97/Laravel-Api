@@ -17,9 +17,9 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
 
  Please make sure that you install composer on your local machine/server.
  
- Please reffer the following post to install the composer on your local machine 
+ The following post help you to install the composer on your local machine/server. 
  
- 	https://www.hostinger.com/tutorials/how-to-install-composer
+ 	<a href="https://www.hostinger.com/tutorials/how-to-install-compose">How to install Composer</a>
  
  Use any one option to install the laravel on your local machine.
 
@@ -88,6 +88,10 @@ Laravel has the most extensive and thorough [documentation](https://laravel.com/
 
 If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
 
+
+## Contact
+
+	Dont be hesitate to contact,mail me on dipaksinghrajput97@gmail.com for any further query related to Laravel,It will be 	much appriciated.
 
 ## Contributing
 
