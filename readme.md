@@ -15,19 +15,19 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
 
 ## Setup Laravel
 
- Please make sure that you intall composer on your machine.
+ Please make sure that you install composer on your local machine/server.
  
  Please reffer the following post to install the composer on your local machine 
- https://www.hostinger.com/tutorials/how-to-install-composer
+ 
+ 	https://www.hostinger.com/tutorials/how-to-install-composer
  
  Use any one option to install the laravel on your local machine.
- 
--$ composer global require laravel/installer
--$ laravel new “project name”
 
-------------------OR------------------------
--$ composer create-project --prefer-dist 						 
--$ laravel/laravel “project name”
+	$ composer global require laravel/installer
+	$ laravel new “project name”
+	------------------OR------------------------
+	$ composer create-project --prefer-dist 						 
+	$ laravel/laravel “project name”
 
 ## Run 
 	$php artisan serve
